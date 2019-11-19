@@ -9,8 +9,8 @@ class UserList extends Component {
 		const {
 			userStore: { fetchUser },
 		} = this.props;
-		const res = await fetchUser();
-		this.setState({ response: res });
+		const result = await fetchUser();
+		this.setState({ response: result });
 	}
 	render() {
 		const {

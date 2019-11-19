@@ -15,7 +15,6 @@ class UserContainer extends Container {
 				users: result.data,
 			});
 		} catch (error) {
-			console.log(error);
 			this.setState({
 				error,
 			});
